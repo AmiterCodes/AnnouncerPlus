@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AnnouncerPlus:jar">
+    <output-path>$USER_HOME$/Documents/WorkServer/Server/plugins</output-path>
+    <root id="archive" name="AnnouncerPlus.jar">
+      <element id="module-output" name="AnnouncerPlus" />
+    </root>
+  </artifact>
+</component>

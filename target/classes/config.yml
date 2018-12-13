@@ -1,0 +1,60 @@
+# enable the plugin.
+enabled: true
+# message to be displayed.
+message: Hello there!
+secondary-message: Welcome to [servername]!
+# in seconds, e.g 0.1 is 100ms
+timespan: 5
+
+# in ticks, 30 ticks is 1 second.
+frame-length: 5
+
+# font settings:
+bold: true
+
+secondary-bold: false
+
+italic: false
+
+secondary-italic: true
+
+underlined: false
+
+secondary-underlined: true
+# length of each color on the main title.
+part-length: 4
+# length of each color on the secondary title.
+secondary-part-length: 6
+
+# formatting codes, for the changing colors of the main title
+changing-colors:
+  - 'a'
+  - 'f'
+  - 'a'
+  - '2'
+
+# formatting codes for the changing colors of the second title
+secondary-changing-colors:
+  - 'c'
+  - '4'
+#  - 'e' #yellow
+#  - '6' #gold
+#  - 'c' #red
+
+use-custom: false
+
+# the messages, if you use custom messages. that will be animated
+custom-messages:
+  - '&aHello'
+  - '&ahell'
+  - '&bhel'
+  - '&bhe'
+  - '&ah'
+  - '&ahe'
+  - '&bhel'
+  - '&bhell'
+
+# the secondary title messages, if you decide to choose custom messages.
+secondary-custom-messages:
+  - '&c[hello]'
+  - '&4[hello]'

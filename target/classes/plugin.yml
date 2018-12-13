@@ -1,0 +1,10 @@
+name: AnnouncerPlus
+version: 1.0-SNAPSHOT
+main: me.amitnave.announcerplus.AnnouncerPlus
+authors: [Amiter]
+description: Announcer+ easy and great announcements.
+commands:
+  announce:
+    description: Announcer+ main command, use this to set messages / announce from ingame.
+    aliases: [announcerplus, announcer]
+    permission: announcer.admin
